@@ -28,8 +28,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PetClinicApplication {
 
+    static string error
+
     public static void main(String[] args) throws Exception {
         SpringApplication.run(PetClinicApplication.class, args);
     }
 
+    // Se realiza modificación para analizar la caracteristica de "BRANCHES"
 }
